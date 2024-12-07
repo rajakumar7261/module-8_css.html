@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day-08: Display Property</title>
+
+    <style>
+       * {
+        margin: 0;
+        padding: 0;
+       }
+
+       .box1 {
+           background-color: blue;
+           color: white;
+           padding: 10px;
+           border: 5px solid rgb(rgb(0, 255, 102), green, blue);
+           margin-top: 10px;
+       }
+
+       .box2 {
+           background-color: blue;
+           color: white;
+           padding: 10px;
+           border: 5px solid rgb(rgb(0, 255, 102), green, blue);
+           margin-top: 10px;
+           display: inline;
+           width: 200px;
+       }
+
+       .box3 {
+        background-color: blue;
+           color: white;
+           padding: 10px;
+           border: 5px solid rgb(rgb(0, 255, 102), green, blue);
+           margin-top: 100px;
+           display: inline-block;
+           width: 200px;
+       }
+
+    </style>
+
+</head>
+<body>
+    <h1>Day-08: Display Property</h1>
+    <h2>The display property is used to specify how an element is shown on a web page.
+
+        Every HTML element has a default display value, depending on what type of element it is. The default display value for most elements is block or inline.
+        
+        The display property is used to change the default display behavior of HTML elements.</h2>
+     
+    <h1>display: block:</h1>
+    <h2>A block-level element ALWAYS starts on a new line and takes up the full width available (stretches out to the left and right as far as it can).</h2>
+    <div class="box1">
+        Hello, World!
+    </div>
+
+    <h1>display: inline:</h1>
+    <h2>An inline element DOES NOT start on a new line and only takes up as much width as necessary.</h2> 
+    <div class="box2">
+        Hello, World!
+    </div>
+
+    <h1>display: inline-block:</h1>
+    <h2>Displays an element as an inline-level block container. The element itself is formatted as an inline element, but you can apply height and width values</h2>
+    <div class="box3">
+       Hello, World!
+    </div>
+
+    <h1>display: none:</h1>
+    <h2>The element is completely removed</h2>
+    <div>
+        
+    </div>
+    
+</body>
+</html>
